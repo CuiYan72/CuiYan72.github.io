@@ -30,7 +30,7 @@ force-https: True
 
 lang: "en"
 author: "崔姑娘"
-title: "猜猜我是谁"
+title: "崔姑娘"
 description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
@@ -126,6 +126,7 @@ vkontakte-share: True
 disqus-shortname: "panossakkos"
 
 syntax-highlight: True
+
 
 ############
 # Timeline #
