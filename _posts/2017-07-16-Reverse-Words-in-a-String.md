@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: LEETCODE-Reverse Words in a String
+title: LEETCODE-String与StringBuilder
 category: tech
 tags: [ 'tutorial' ]
 ---
@@ -28,6 +28,7 @@ public class Solution {
 ##### 2. trim()
 ##### 定义：去掉字符串首尾的空格。
 ##### 3. StringBuilder类
-##### 使用的方法：(1) reverse() (2) toString() 
+##### 常用方法：(1) reverse() (2) toString() (3)append() (4)console.writeLine() 
+##### String对象是不可改变的。每次使用 System.String类中的方法之一时，都要在内存中创建一个新的字符串对象，这就需要为该新对象分配新的空间。在需要对字符串执行重复修改的情况下，这种做法就会耗费资源。如果要修改字符串而不创建新的对象，则可以使用System.Text.StringBuilder类。例如，当在一个循环中将许多字符串连接在一起时，使用 StringBuilder类可以提升性能，使用这个类所产生的对象默认会有16个字符的长度，也可以自行指定初始长度。如果附加的字符超出可容纳的长度，则StringBuilder对象会自动增加长度以容纳被附加的字符。
 ##### 4. for(String word: words)
 ##### 伪代码：从words数组中遍历每一个word 
